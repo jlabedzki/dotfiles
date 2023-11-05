@@ -1,0 +1,3 @@
+cmd + alt + shift + ctrl - g : open -a "Google Chrome"
+cmd + alt + shift + ctrl - v : open -a "Visual Studio Code"
+cmd + alt + shift + ctrl - f : open -a "Finder"

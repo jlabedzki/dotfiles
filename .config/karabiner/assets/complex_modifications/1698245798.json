@@ -1,0 +1,1 @@
+{"title":"esc to Hyper When Held","rules":[{"description":"Map esc to Hyper when held","manipulators":[{"type":"basic","from":{"key_code":"escape","modifiers":{"optional":["any"]}},"to_if_alone":[{"key_code":"escape"}],"to_if_held_down":[{"key_code":"left_shift","modifiers":["left_command","left_control","left_option","left_shift"],"halt":false,"repeat":false,"lazy":false}]}]}]}
