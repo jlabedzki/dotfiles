@@ -34,9 +34,9 @@ autoconf
 └── m4
 
 aws-sso-util
-├── libyaml
-├── python-certifi
+├── certifi
 │   └── ca-certificates
+├── libyaml
 └── python@3.12
     ├── mpdecimal
     ├── openssl@3
@@ -46,21 +46,17 @@ aws-sso-util
     └── xz
 
 awscli
-├── cffi
-│   ├── pycparser
-│   └── python-setuptools
-├── docutils
 ├── openssl@3
 │   └── ca-certificates
-├── pycparser
-├── python@3.11
-│   ├── mpdecimal
-│   ├── openssl@3
-│   │   └── ca-certificates
-│   ├── sqlite
-│   │   └── readline
-│   └── xz
-└── six
+└── python@3.11
+    ├── mpdecimal
+    ├── openssl@3
+    │   └── ca-certificates
+    ├── sqlite
+    │   └── readline
+    └── xz
+
+bash
 
 bat
 ├── libgit2
@@ -77,9 +73,13 @@ brotli
 
 ca-certificates
 
+certifi
+└── ca-certificates
+
 cffi
-├── pycparser
-└── python-setuptools
+└── pycparser
+
+dbeaver-community
 
 direnv
 └── bash
@@ -166,6 +166,13 @@ giflib
 
 glib
 ├── pcre2
+├── python@3.12
+│   ├── mpdecimal
+│   ├── openssl@3
+│   │   └── ca-certificates
+│   ├── sqlite
+│   │   └── readline
+│   └── xz
 └── gettext
 
 gmp
@@ -350,11 +357,25 @@ imagemagick
 │   ├── shared-mime-info
 │   │   └── glib
 │   │       ├── pcre2
+│   │       ├── python@3.12
+│   │       │   ├── mpdecimal
+│   │       │   ├── openssl@3
+│   │       │   │   └── ca-certificates
+│   │       │   ├── sqlite
+│   │       │   │   └── readline
+│   │       │   └── xz
 │   │       └── gettext
 │   └── x265
 ├── liblqr
 │   └── glib
 │       ├── pcre2
+│       ├── python@3.12
+│       │   ├── mpdecimal
+│       │   ├── openssl@3
+│       │   │   └── ca-certificates
+│       │   ├── sqlite
+│       │   │   └── readline
+│       │   └── xz
 │       └── gettext
 ├── libpng
 ├── libraw
@@ -519,6 +540,13 @@ libheif
 ├── shared-mime-info
 │   └── glib
 │       ├── pcre2
+│       ├── python@3.12
+│       │   ├── mpdecimal
+│       │   ├── openssl@3
+│       │   │   └── ca-certificates
+│       │   ├── sqlite
+│       │   │   └── readline
+│       │   └── xz
 │       └── gettext
 └── x265
 
@@ -534,6 +562,13 @@ libidn2
 liblqr
 └── glib
     ├── pcre2
+    ├── python@3.12
+    │   ├── mpdecimal
+    │   ├── openssl@3
+    │   │   └── ca-certificates
+    │   ├── sqlite
+    │   │   └── readline
+    │   └── xz
     └── gettext
 
 libmagic
@@ -680,6 +715,8 @@ notunes
 
 nvm
 
+obsidian
+
 oniguruma
 
 openexr
@@ -738,9 +775,6 @@ pyenv
 ├── pkg-config
 └── readline
 
-python-certifi
-└── ca-certificates
-
 python@3.10
 ├── gdbm
 ├── mpdecimal
@@ -752,6 +786,14 @@ python@3.10
 └── xz
 
 python@3.11
+├── mpdecimal
+├── openssl@3
+│   └── ca-certificates
+├── sqlite
+│   └── readline
+└── xz
+
+python@3.12
 ├── mpdecimal
 ├── openssl@3
 │   └── ca-certificates
@@ -772,6 +814,13 @@ session-manager-plugin
 shared-mime-info
 └── glib
     ├── pcre2
+    ├── python@3.12
+    │   ├── mpdecimal
+    │   ├── openssl@3
+    │   │   └── ca-certificates
+    │   ├── sqlite
+    │   │   └── readline
+    │   └── xz
     └── gettext
 
 shortcat
@@ -827,6 +876,15 @@ taskwarrior-tui
             ├── libnghttp2
             └── openssl@3
                 └── ca-certificates
+
+thefuck
+└── python@3.12
+    ├── mpdecimal
+    ├── openssl@3
+    │   └── ca-certificates
+    ├── sqlite
+    │   └── readline
+    └── xz
 
 tree
 
