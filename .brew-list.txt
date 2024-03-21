@@ -1,965 +1,120 @@
-amethyst
-
 aom
-├── jpeg-xl
-│   ├── brotli
-│   ├── giflib
-│   ├── highway
-│   ├── imath
-│   ├── jpeg-turbo
-│   ├── libpng
-│   ├── little-cms2
-│   │   ├── jpeg-turbo
-│   │   └── libtiff
-│   │       ├── jpeg-turbo
-│   │       ├── xz
-│   │       └── zstd
-│   │           ├── lz4
-│   │           └── xz
-│   ├── openexr
-│   │   └── imath
-│   └── webp
-│       ├── giflib
-│       ├── jpeg-turbo
-│       ├── libpng
-│       └── libtiff
-│           ├── jpeg-turbo
-│           ├── xz
-│           └── zstd
-│               ├── lz4
-│               └── xz
-└── libvmaf
-
 autoconf
-└── m4
-
 aws-sso-util
-├── certifi
-│   └── ca-certificates
-├── libyaml
-└── python@3.12
-    ├── mpdecimal
-    ├── openssl@3
-    │   └── ca-certificates
-    ├── sqlite
-    │   └── readline
-    └── xz
-
 awscli
-├── openssl@3
-│   └── ca-certificates
-└── python@3.11
-    ├── mpdecimal
-    ├── openssl@3
-    │   └── ca-certificates
-    ├── sqlite
-    │   └── readline
-    └── xz
-
 bash
-
 bat
-├── libgit2
-│   ├── libssh2
-│   │   └── openssl@3
-│   │       └── ca-certificates
-│   └── openssl@3
-│       └── ca-certificates
-└── oniguruma
-
-bdw-gc
-
 brotli
-
 ca-certificates
-
 certifi
-└── ca-certificates
-
-cffi
-└── pycparser
-
-dbeaver-community
-
 direnv
-└── bash
-
-docbook
-
-docbook-xsl
-└── docbook
-
 docker
-└── docker-completion
-
 docker-completion
-
 docutils
-
 exa
-└── libgit2
-    ├── libssh2
-    │   └── openssl@3
-    │       └── ca-certificates
-    └── openssl@3
-        └── ca-certificates
-
-homebrew/cask-fonts/font-hack-nerd-font
-
 fontconfig
-└── freetype
-    └── libpng
-
 freetype
-└── libpng
-
 fzf
-
 gdbm
-
 gettext
-
 gh
-
 ghostscript
-├── fontconfig
-│   └── freetype
-│       └── libpng
-├── freetype
-│   └── libpng
-├── jbig2dec
-├── jpeg-turbo
-├── libidn
-├── libpng
-├── libtiff
-│   ├── jpeg-turbo
-│   ├── xz
-│   └── zstd
-│       ├── lz4
-│       └── xz
-├── little-cms2
-│   ├── jpeg-turbo
-│   └── libtiff
-│       ├── jpeg-turbo
-│       ├── xz
-│       └── zstd
-│           ├── lz4
-│           └── xz
-└── openjpeg
-    ├── libpng
-    ├── libtiff
-    │   ├── jpeg-turbo
-    │   ├── xz
-    │   └── zstd
-    │       ├── lz4
-    │       └── xz
-    └── little-cms2
-        ├── jpeg-turbo
-        └── libtiff
-            ├── jpeg-turbo
-            ├── xz
-            └── zstd
-                ├── lz4
-                └── xz
-
 giflib
-
 glib
-├── pcre2
-├── python@3.12
-│   ├── mpdecimal
-│   ├── openssl@3
-│   │   └── ca-certificates
-│   ├── sqlite
-│   │   └── readline
-│   └── xz
-└── gettext
-
 gmp
-
-gnu-getopt
-
 gnutls
-├── ca-certificates
-├── gmp
-├── libidn2
-│   ├── libunistring
-│   └── gettext
-├── libtasn1
-├── libunistring
-├── nettle
-│   └── gmp
-├── p11-kit
-│   ├── ca-certificates
-│   └── libtasn1
-└── unbound
-    ├── libevent
-    │   └── openssl@3
-    │       └── ca-certificates
-    ├── libnghttp2
-    └── openssl@3
-        └── ca-certificates
-
 graphicsmagick
-├── freetype
-│   └── libpng
-├── jasper
-│   └── jpeg-turbo
-├── jpeg-turbo
-├── jpeg-xl
-│   ├── brotli
-│   ├── giflib
-│   ├── highway
-│   ├── imath
-│   ├── jpeg-turbo
-│   ├── libpng
-│   ├── little-cms2
-│   │   ├── jpeg-turbo
-│   │   └── libtiff
-│   │       ├── jpeg-turbo
-│   │       ├── xz
-│   │       └── zstd
-│   │           ├── lz4
-│   │           └── xz
-│   ├── openexr
-│   │   └── imath
-│   └── webp
-│       ├── giflib
-│       ├── jpeg-turbo
-│       ├── libpng
-│       └── libtiff
-│           ├── jpeg-turbo
-│           ├── xz
-│           └── zstd
-│               ├── lz4
-│               └── xz
-├── libpng
-├── libtiff
-│   ├── jpeg-turbo
-│   ├── xz
-│   └── zstd
-│       ├── lz4
-│       └── xz
-├── libtool
-│   └── m4
-├── little-cms2
-│   ├── jpeg-turbo
-│   └── libtiff
-│       ├── jpeg-turbo
-│       ├── xz
-│       └── zstd
-│           ├── lz4
-│           └── xz
-└── webp
-    ├── giflib
-    ├── jpeg-turbo
-    ├── libpng
-    └── libtiff
-        ├── jpeg-turbo
-        ├── xz
-        └── zstd
-            ├── lz4
-            └── xz
-
 grep
-└── pcre2
-
-guile
-├── bdw-gc
-├── gmp
-├── libtool
-│   └── m4
-├── libunistring
-├── pkg-config
-└── readline
-
 highway
-
 icu4c
-
 imagemagick
-├── freetype
-│   └── libpng
-├── ghostscript
-│   ├── fontconfig
-│   │   └── freetype
-│   │       └── libpng
-│   ├── freetype
-│   │   └── libpng
-│   ├── jbig2dec
-│   ├── jpeg-turbo
-│   ├── libidn
-│   ├── libpng
-│   ├── libtiff
-│   │   ├── jpeg-turbo
-│   │   ├── xz
-│   │   └── zstd
-│   │       ├── lz4
-│   │       └── xz
-│   ├── little-cms2
-│   │   ├── jpeg-turbo
-│   │   └── libtiff
-│   │       ├── jpeg-turbo
-│   │       ├── xz
-│   │       └── zstd
-│   │           ├── lz4
-│   │           └── xz
-│   └── openjpeg
-│       ├── libpng
-│       ├── libtiff
-│       │   ├── jpeg-turbo
-│       │   ├── xz
-│       │   └── zstd
-│       │       ├── lz4
-│       │       └── xz
-│       └── little-cms2
-│           ├── jpeg-turbo
-│           └── libtiff
-│               ├── jpeg-turbo
-│               ├── xz
-│               └── zstd
-│                   ├── lz4
-│                   └── xz
-├── jpeg-turbo
-├── libheif
-│   ├── aom
-│   │   ├── jpeg-xl
-│   │   │   ├── brotli
-│   │   │   ├── giflib
-│   │   │   ├── highway
-│   │   │   ├── imath
-│   │   │   ├── jpeg-turbo
-│   │   │   ├── libpng
-│   │   │   ├── little-cms2
-│   │   │   │   ├── jpeg-turbo
-│   │   │   │   └── libtiff
-│   │   │   │       ├── jpeg-turbo
-│   │   │   │       ├── xz
-│   │   │   │       └── zstd
-│   │   │   │           ├── lz4
-│   │   │   │           └── xz
-│   │   │   ├── openexr
-│   │   │   │   └── imath
-│   │   │   └── webp
-│   │   │       ├── giflib
-│   │   │       ├── jpeg-turbo
-│   │   │       ├── libpng
-│   │   │       └── libtiff
-│   │   │           ├── jpeg-turbo
-│   │   │           ├── xz
-│   │   │           └── zstd
-│   │   │               ├── lz4
-│   │   │               └── xz
-│   │   └── libvmaf
-│   ├── jpeg-turbo
-│   ├── libde265
-│   ├── libpng
-│   ├── shared-mime-info
-│   │   └── glib
-│   │       ├── pcre2
-│   │       ├── python@3.12
-│   │       │   ├── mpdecimal
-│   │       │   ├── openssl@3
-│   │       │   │   └── ca-certificates
-│   │       │   ├── sqlite
-│   │       │   │   └── readline
-│   │       │   └── xz
-│   │       └── gettext
-│   └── x265
-├── liblqr
-│   └── glib
-│       ├── pcre2
-│       ├── python@3.12
-│       │   ├── mpdecimal
-│       │   ├── openssl@3
-│       │   │   └── ca-certificates
-│       │   ├── sqlite
-│       │   │   └── readline
-│       │   └── xz
-│       └── gettext
-├── libpng
-├── libraw
-│   ├── jasper
-│   │   └── jpeg-turbo
-│   ├── jpeg-turbo
-│   ├── little-cms2
-│   │   ├── jpeg-turbo
-│   │   └── libtiff
-│   │       ├── jpeg-turbo
-│   │       ├── xz
-│   │       └── zstd
-│   │           ├── lz4
-│   │           └── xz
-│   └── libomp
-├── libtiff
-│   ├── jpeg-turbo
-│   ├── xz
-│   └── zstd
-│       ├── lz4
-│       └── xz
-├── libtool
-│   └── m4
-├── little-cms2
-│   ├── jpeg-turbo
-│   └── libtiff
-│       ├── jpeg-turbo
-│       ├── xz
-│       └── zstd
-│           ├── lz4
-│           └── xz
-├── openexr
-│   └── imath
-├── openjpeg
-│   ├── libpng
-│   ├── libtiff
-│   │   ├── jpeg-turbo
-│   │   ├── xz
-│   │   └── zstd
-│   │       ├── lz4
-│   │       └── xz
-│   └── little-cms2
-│       ├── jpeg-turbo
-│       └── libtiff
-│           ├── jpeg-turbo
-│           ├── xz
-│           └── zstd
-│               ├── lz4
-│               └── xz
-├── webp
-│   ├── giflib
-│   ├── jpeg-turbo
-│   ├── libpng
-│   └── libtiff
-│       ├── jpeg-turbo
-│       ├── xz
-│       └── zstd
-│           ├── lz4
-│           └── xz
-├── xz
-└── libomp
-
 imath
-
 jasper
-└── jpeg-turbo
-
 jbig2dec
-
 jpeg-turbo
-
 jpeg-xl
-├── brotli
-├── giflib
-├── highway
-├── imath
-├── jpeg-turbo
-├── libpng
-├── little-cms2
-│   ├── jpeg-turbo
-│   └── libtiff
-│       ├── jpeg-turbo
-│       ├── xz
-│       └── zstd
-│           ├── lz4
-│           └── xz
-├── openexr
-│   └── imath
-└── webp
-    ├── giflib
-    ├── jpeg-turbo
-    ├── libpng
-    └── libtiff
-        ├── jpeg-turbo
-        ├── xz
-        └── zstd
-            ├── lz4
-            └── xz
-
 jq
-└── oniguruma
-
 krb5
-└── openssl@3
-    └── ca-certificates
-
-jesseduffield/lazygit/lazygit
-
+lazygit
+libcbor
 libde265
-
 libevent
-└── openssl@3
-    └── ca-certificates
-
+libfido2
 libgit2
-├── libssh2
-│   └── openssl@3
-│       └── ca-certificates
-└── openssl@3
-    └── ca-certificates
-
-libgit2@1.5
-├── libssh2
-│   └── openssl@3
-│       └── ca-certificates
-└── openssl@3
-    └── ca-certificates
-
 libheif
-├── aom
-│   ├── jpeg-xl
-│   │   ├── brotli
-│   │   ├── giflib
-│   │   ├── highway
-│   │   ├── imath
-│   │   ├── jpeg-turbo
-│   │   ├── libpng
-│   │   ├── little-cms2
-│   │   │   ├── jpeg-turbo
-│   │   │   └── libtiff
-│   │   │       ├── jpeg-turbo
-│   │   │       ├── xz
-│   │   │       └── zstd
-│   │   │           ├── lz4
-│   │   │           └── xz
-│   │   ├── openexr
-│   │   │   └── imath
-│   │   └── webp
-│   │       ├── giflib
-│   │       ├── jpeg-turbo
-│   │       ├── libpng
-│   │       └── libtiff
-│   │           ├── jpeg-turbo
-│   │           ├── xz
-│   │           └── zstd
-│   │               ├── lz4
-│   │               └── xz
-│   └── libvmaf
-├── jpeg-turbo
-├── libde265
-├── libpng
-├── shared-mime-info
-│   └── glib
-│       ├── pcre2
-│       ├── python@3.12
-│       │   ├── mpdecimal
-│       │   ├── openssl@3
-│       │   │   └── ca-certificates
-│       │   ├── sqlite
-│       │   │   └── readline
-│       │   └── xz
-│       └── gettext
-└── x265
-
 libice
-└── xorgproto
-
 libidn
-
 libidn2
-├── libunistring
-└── gettext
-
 liblqr
-└── glib
-    ├── pcre2
-    ├── python@3.12
-    │   ├── mpdecimal
-    │   ├── openssl@3
-    │   │   └── ca-certificates
-    │   ├── sqlite
-    │   │   └── readline
-    │   └── xz
-    └── gettext
-
 libmagic
-
 libnghttp2
-
 libomp
-
 libpng
-
 libraw
-├── jasper
-│   └── jpeg-turbo
-├── jpeg-turbo
-├── little-cms2
-│   ├── jpeg-turbo
-│   └── libtiff
-│       ├── jpeg-turbo
-│       ├── xz
-│       └── zstd
-│           ├── lz4
-│           └── xz
-└── libomp
-
 libsm
-└── libice
-    └── xorgproto
-
 libssh2
-└── openssl@3
-    └── ca-certificates
-
 libtasn1
-
 libtiff
-├── jpeg-turbo
-├── xz
-└── zstd
-    ├── lz4
-    └── xz
-
 libtool
-└── m4
-
 libunistring
-
 libvmaf
-
 libx11
-├── libxcb
-│   ├── libxau
-│   │   └── xorgproto
-│   └── libxdmcp
-│       └── xorgproto
-└── xorgproto
-
 libxau
-└── xorgproto
-
 libxcb
-├── libxau
-│   └── xorgproto
-└── libxdmcp
-    └── xorgproto
-
 libxdmcp
-└── xorgproto
-
 libxext
-├── libx11
-│   ├── libxcb
-│   │   ├── libxau
-│   │   │   └── xorgproto
-│   │   └── libxdmcp
-│   │       └── xorgproto
-│   └── xorgproto
-└── xorgproto
-
 libxmu
-├── libxext
-│   ├── libx11
-│   │   ├── libxcb
-│   │   │   ├── libxau
-│   │   │   │   └── xorgproto
-│   │   │   └── libxdmcp
-│   │   │       └── xorgproto
-│   │   └── xorgproto
-│   └── xorgproto
-└── libxt
-    ├── libice
-    │   └── xorgproto
-    ├── libsm
-    │   └── libice
-    │       └── xorgproto
-    └── libx11
-        ├── libxcb
-        │   ├── libxau
-        │   │   └── xorgproto
-        │   └── libxdmcp
-        │       └── xorgproto
-        └── xorgproto
-
 libxt
-├── libice
-│   └── xorgproto
-├── libsm
-│   └── libice
-│       └── xorgproto
-└── libx11
-    ├── libxcb
-    │   ├── libxau
-    │   │   └── xorgproto
-    │   └── libxdmcp
-    │       └── xorgproto
-    └── xorgproto
-
 libyaml
-
 little-cms2
-├── jpeg-turbo
-└── libtiff
-    ├── jpeg-turbo
-    ├── xz
-    └── zstd
-        ├── lz4
-        └── xz
-
 lz4
-
 m4
-
-maccy
-
 mpdecimal
-
+mysql
 ncurses
-
 nettle
-└── gmp
-
-notion
-
-notunes
-
 nvm
-
-obsidian
-
 oniguruma
-
 openexr
-└── imath
-
 openjpeg
-├── libpng
-├── libtiff
-│   ├── jpeg-turbo
-│   ├── xz
-│   └── zstd
-│       ├── lz4
-│       └── xz
-└── little-cms2
-    ├── jpeg-turbo
-    └── libtiff
-        ├── jpeg-turbo
-        ├── xz
-        └── zstd
-            ├── lz4
-            └── xz
-
-openssl@1.1
-└── ca-certificates
-
 openssl@3
-└── ca-certificates
-
 p11-kit
-├── ca-certificates
-└── libtasn1
-
 pcre
-
 pcre2
-
 pkg-config
-
 postgresql@14
-├── icu4c
-├── krb5
-│   └── openssl@3
-│       └── ca-certificates
-├── lz4
-├── openssl@3
-│   └── ca-certificates
-└── readline
-
-pycparser
-
+protobuf@21
 pyenv
-├── autoconf
-│   └── m4
-├── openssl@3
-│   └── ca-certificates
-├── pkg-config
-└── readline
-
+python-certifi
+python-setuptools
 python@3.10
-├── gdbm
-├── mpdecimal
-├── openssl@3
-│   └── ca-certificates
-├── readline
-├── sqlite
-│   └── readline
-└── xz
-
 python@3.11
-├── mpdecimal
-├── openssl@3
-│   └── ca-certificates
-├── sqlite
-│   └── readline
-└── xz
-
 python@3.12
-├── mpdecimal
-├── openssl@3
-│   └── ca-certificates
-├── sqlite
-│   └── readline
-└── xz
-
-pyyaml
-└── libyaml
-
 readline
-
 ripgrep
-└── pcre2
-
-session-manager-plugin
-
+ruby
 shared-mime-info
-└── glib
-    ├── pcre2
-    ├── python@3.12
-    │   ├── mpdecimal
-    │   ├── openssl@3
-    │   │   └── ca-certificates
-    │   ├── sqlite
-    │   │   └── readline
-    │   └── xz
-    └── gettext
-
-shortcat
-
-six
-
-koekeishiya/formulae/skhd
-
+skhd
 sqlite
-└── readline
-
 task
-└── gnutls
-    ├── ca-certificates
-    ├── gmp
-    ├── libidn2
-    │   ├── libunistring
-    │   └── gettext
-    ├── libtasn1
-    ├── libunistring
-    ├── nettle
-    │   └── gmp
-    ├── p11-kit
-    │   ├── ca-certificates
-    │   └── libtasn1
-    └── unbound
-        ├── libevent
-        │   └── openssl@3
-        │       └── ca-certificates
-        ├── libnghttp2
-        └── openssl@3
-            └── ca-certificates
-
 taskwarrior-tui
-└── task
-    └── gnutls
-        ├── ca-certificates
-        ├── gmp
-        ├── libidn2
-        │   ├── libunistring
-        │   └── gettext
-        ├── libtasn1
-        ├── libunistring
-        ├── nettle
-        │   └── gmp
-        ├── p11-kit
-        │   ├── ca-certificates
-        │   └── libtasn1
-        └── unbound
-            ├── libevent
-            │   └── openssl@3
-            │       └── ca-certificates
-            ├── libnghttp2
-            └── openssl@3
-                └── ca-certificates
-
 thefuck
-└── python@3.12
-    ├── mpdecimal
-    ├── openssl@3
-    │   └── ca-certificates
-    ├── sqlite
-    │   └── readline
-    └── xz
-
 tree
-
 unbound
-├── libevent
-│   └── openssl@3
-│       └── ca-certificates
-├── libnghttp2
-└── openssl@3
-    └── ca-certificates
-
 webp
-├── giflib
-├── jpeg-turbo
-├── libpng
-└── libtiff
-    ├── jpeg-turbo
-    ├── xz
-    └── zstd
-        ├── lz4
-        └── xz
-
 x265
-
 xclip
-├── libx11
-│   ├── libxcb
-│   │   ├── libxau
-│   │   │   └── xorgproto
-│   │   └── libxdmcp
-│   │       └── xorgproto
-│   └── xorgproto
-└── libxmu
-    ├── libxext
-    │   ├── libx11
-    │   │   ├── libxcb
-    │   │   │   ├── libxau
-    │   │   │   │   └── xorgproto
-    │   │   │   └── libxdmcp
-    │   │   │       └── xorgproto
-    │   │   └── xorgproto
-    │   └── xorgproto
-    └── libxt
-        ├── libice
-        │   └── xorgproto
-        ├── libsm
-        │   └── libice
-        │       └── xorgproto
-        └── libx11
-            ├── libxcb
-            │   ├── libxau
-            │   │   └── xorgproto
-            │   └── libxdmcp
-            │       └── xorgproto
-            └── xorgproto
-
-xmlto
-├── docbook
-├── docbook-xsl
-│   └── docbook
-└── gnu-getopt
-
 xorgproto
-
 xz
-
 yq
-
+zlib
+zlib-ng
 zoxide
-
 zsh
-├── pcre
-└── ncurses
-
 zstd
-├── lz4
-└── xz
-
+amethyst
+dbeaver-community
+font-hack-nerd-font
+maccy
+notunes
+session-manager-plugin
